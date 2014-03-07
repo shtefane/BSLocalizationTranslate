@@ -98,8 +98,9 @@
 - (NSString*) translate: (NSString*) word
 {
     
+    
     NSString *langCode = [[[_languageInfo objectForKey:@"code"] componentsSeparatedByString:@"-"] firstObject];
-    NSString *baseURLStr = [NSString stringWithFormat:@"http://mymemory.translated.net/api/get?q=%@&langpair=en|%@&de=%@", word, langCode, @"bsp13cmd@gmail.com"];
+    NSString *baseURLStr = [NSString stringWithFormat:@"http://mymemory.translated.net/api/get?q=%@&langpair=en|%@&de=%@", word, langCode, validEmail];
     
     NSURL *reqUrl = [NSURL URLWithString:[baseURLStr stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding]];
     // NSLog(@"URL %@", reqUrl);
