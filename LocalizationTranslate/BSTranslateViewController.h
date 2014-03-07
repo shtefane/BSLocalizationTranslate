@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface BSViewController : UIViewController
+@interface BSTranslateViewController : UIViewController
+
+@property (nonatomic, strong) NSDictionary *languageInfo;
 
 @end

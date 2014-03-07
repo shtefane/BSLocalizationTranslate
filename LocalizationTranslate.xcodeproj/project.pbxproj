@@ -14,13 +14,16 @@
 		D89587E618C9BA2200478A9B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D89587E518C9BA2200478A9B /* main.m */; };
 		D89587EA18C9BA2200478A9B /* BSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D89587E918C9BA2200478A9B /* BSAppDelegate.m */; };
 		D89587ED18C9BA2200478A9B /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D89587EB18C9BA2200478A9B /* Main_iPhone.storyboard */; };
-		D89587F318C9BA2200478A9B /* BSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D89587F218C9BA2200478A9B /* BSViewController.m */; };
+		D89587F318C9BA2200478A9B /* BSTranslateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D89587F218C9BA2200478A9B /* BSTranslateViewController.m */; };
 		D89587F518C9BA2200478A9B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D89587F418C9BA2200478A9B /* Images.xcassets */; };
 		D89587FC18C9BA2200478A9B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D89587FB18C9BA2200478A9B /* XCTest.framework */; };
 		D89587FD18C9BA2200478A9B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D89587D918C9BA2200478A9B /* Foundation.framework */; };
 		D89587FE18C9BA2200478A9B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D89587DD18C9BA2200478A9B /* UIKit.framework */; };
 		D895880618C9BA2200478A9B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D895880418C9BA2200478A9B /* InfoPlist.strings */; };
 		D895880818C9BA2200478A9B /* LocalizationTranslateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D895880718C9BA2200478A9B /* LocalizationTranslateTests.m */; };
+		D895881318C9C42800478A9B /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = D895881518C9C42800478A9B /* Localizable.strings */; };
+		D895881B18C9CE3E00478A9B /* languages.plist in Resources */ = {isa = PBXBuildFile; fileRef = D895881A18C9CE3E00478A9B /* languages.plist */; };
+		D895881E18C9CEBA00478A9B /* BSSelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D895881D18C9CEBA00478A9B /* BSSelectViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +48,18 @@
 		D89587E818C9BA2200478A9B /* BSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BSAppDelegate.h; sourceTree = "<group>"; };
 		D89587E918C9BA2200478A9B /* BSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BSAppDelegate.m; sourceTree = "<group>"; };
 		D89587EC18C9BA2200478A9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
-		D89587F118C9BA2200478A9B /* BSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BSViewController.h; sourceTree = "<group>"; };
-		D89587F218C9BA2200478A9B /* BSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BSViewController.m; sourceTree = "<group>"; };
+		D89587F118C9BA2200478A9B /* BSTranslateViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BSTranslateViewController.h; sourceTree = "<group>"; };
+		D89587F218C9BA2200478A9B /* BSTranslateViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BSTranslateViewController.m; sourceTree = "<group>"; };
 		D89587F418C9BA2200478A9B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D89587FA18C9BA2200478A9B /* LocalizationTranslateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LocalizationTranslateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D89587FB18C9BA2200478A9B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		D895880318C9BA2200478A9B /* LocalizationTranslateTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LocalizationTranslateTests-Info.plist"; sourceTree = "<group>"; };
 		D895880518C9BA2200478A9B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D895880718C9BA2200478A9B /* LocalizationTranslateTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LocalizationTranslateTests.m; sourceTree = "<group>"; };
+		D895881A18C9CE3E00478A9B /* languages.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = languages.plist; sourceTree = "<group>"; };
+		D895881C18C9CEBA00478A9B /* BSSelectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSSelectViewController.h; sourceTree = "<group>"; };
+		D895881D18C9CEBA00478A9B /* BSSelectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSSelectViewController.m; sourceTree = "<group>"; };
+		D895882018CA1A5500478A9B /* en */ = {isa = PBXFileReference; lastKnownFileType = file; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,9 +121,11 @@
 			children = (
 				D89587E818C9BA2200478A9B /* BSAppDelegate.h */,
 				D89587E918C9BA2200478A9B /* BSAppDelegate.m */,
+				D895881C18C9CEBA00478A9B /* BSSelectViewController.h */,
+				D895881D18C9CEBA00478A9B /* BSSelectViewController.m */,
+				D89587F118C9BA2200478A9B /* BSTranslateViewController.h */,
+				D89587F218C9BA2200478A9B /* BSTranslateViewController.m */,
 				D89587EB18C9BA2200478A9B /* Main_iPhone.storyboard */,
-				D89587F118C9BA2200478A9B /* BSViewController.h */,
-				D89587F218C9BA2200478A9B /* BSViewController.m */,
 				D89587F418C9BA2200478A9B /* Images.xcassets */,
 				D89587E018C9BA2200478A9B /* Supporting Files */,
 			);
@@ -126,10 +135,12 @@
 		D89587E018C9BA2200478A9B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D895881A18C9CE3E00478A9B /* languages.plist */,
 				D89587E118C9BA2200478A9B /* LocalizationTranslate-Info.plist */,
 				D89587E218C9BA2200478A9B /* InfoPlist.strings */,
 				D89587E518C9BA2200478A9B /* main.m */,
 				D89587E718C9BA2200478A9B /* LocalizationTranslate-Prefix.pch */,
+				D895881518C9C42800478A9B /* Localizable.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -229,7 +240,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D895881B18C9CE3E00478A9B /* languages.plist in Resources */,
 				D89587F518C9BA2200478A9B /* Images.xcassets in Resources */,
+				D895881318C9C42800478A9B /* Localizable.strings in Resources */,
 				D89587ED18C9BA2200478A9B /* Main_iPhone.storyboard in Resources */,
 				D89587E418C9BA2200478A9B /* InfoPlist.strings in Resources */,
 			);
@@ -250,9 +263,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D89587F318C9BA2200478A9B /* BSViewController.m in Sources */,
+				D89587F318C9BA2200478A9B /* BSTranslateViewController.m in Sources */,
 				D89587E618C9BA2200478A9B /* main.m in Sources */,
 				D89587EA18C9BA2200478A9B /* BSAppDelegate.m in Sources */,
+				D895881E18C9CEBA00478A9B /* BSSelectViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,6 +311,14 @@
 				D895880518C9BA2200478A9B /* en */,
 			);
 			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D895881518C9C42800478A9B /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D895882018CA1A5500478A9B /* en */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
